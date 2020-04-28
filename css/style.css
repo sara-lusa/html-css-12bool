@@ -1,0 +1,16 @@
+.container {
+  background-color: pink;
+}
+
+.container > div {
+  border: 1px solid black;
+  position: relative;
+  height: 200px;
+}
+
+.container div > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
