@@ -1,26 +1,24 @@
 /* Debug */
 .debug .container {
   background-color: green;
-  height: 200px;
 }
 
 .debug [class*="col-"] {
   background-color: pink;
   border: 1px solid black;
-  height: 100%;
+  height: 200px;
 }
-
 /* Fine Debug */
 
-/* RESET */
+/* FRAMEWORK */
+/* Reset */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-/* FINE RESET */
+/* Fine Reset */
 
-/* FRAMEWORK */
 /* Inizio Regole Generali */
 .container {
   max-width: 1170px;
