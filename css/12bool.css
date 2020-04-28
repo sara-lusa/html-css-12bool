@@ -4,8 +4,9 @@
   height: 200px;
 }
 
-.debug .col-1 {
+.debug [class*="col-"] {
   background-color: pink;
+  border: 1px solid black;
   height: 100%;
 }
 
@@ -24,6 +25,16 @@
 .container {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
 }
 /* Fine Regole Generali */
 
@@ -76,3 +87,49 @@
   width: calc(100% / 12 * 12);
 }
 /* Fine Colonne */
+
+/* Offset */
+.offset-1 {
+  margin-left: calc(100% / 12 * 1);
+}
+
+.offset-2 {
+  margin-left: calc(100% / 12 * 2);
+}
+
+.offset-3 {
+  margin-left: calc(100% / 12 * 3);
+}
+
+.offset-4 {
+  margin-left: calc(100% / 12 * 4);
+}
+
+.offset-5 {
+  margin-left: calc(100% / 12 * 5);
+}
+
+.offset-6 {
+  margin-left: calc(100% / 12 * 6);
+}
+
+.offset-7 {
+  margin-left: calc(100% / 12 * 7);
+}
+
+.offset-8 {
+  margin-left: calc(100% / 12 * 8);
+}
+
+.offset-9 {
+  margin-left: calc(100% / 12 * 9);
+}
+
+.offset-10 {
+  margin-left: calc(100% / 12 * 10);
+}
+
+.offset-11 {
+  margin-left: calc(100% / 12 * 11);
+}
+/* Fine Offset */
