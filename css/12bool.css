@@ -1,0 +1,78 @@
+/* Debug */
+.debug .container {
+  background-color: green;
+  height: 200px;
+}
+
+.debug .col-1 {
+  background-color: pink;
+  height: 100%;
+}
+
+/* Fine Debug */
+
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* FRAMEWORK */
+/* Inizio Regole Generali */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* Fine Regole Generali */
+
+/* Inizio Colonne */
+.col-1 {
+  width: calc(100% / 12 * 1);
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+  width: calc(100% / 12 * 6);
+}
+
+.col-6 {
+  width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+  width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+  width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+  width: calc(100% / 12 * 12);
+}
+/* Fine Colonne */
