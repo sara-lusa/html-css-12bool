@@ -1,3 +1,4 @@
+/* Regole Generali */
 .container {
   background-color: pink;
 }
@@ -14,3 +15,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* Fine Regole Generali */
+
+/* FOOTER */
+footer > .container div {
+  padding: 3px;
+}
+
+footer .container div > .container div {
+  border: 1px solid white;
+  background-color: lightcoral;
+}
+/* FINE FOOTER */
